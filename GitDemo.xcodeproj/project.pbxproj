@@ -21,6 +21,7 @@
 		42FBD1E119FB3C3200C8658B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42FBD1C319FB3C3200C8658B /* UIKit.framework */; };
 		42FBD1E919FB3C3200C8658B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 42FBD1E719FB3C3200C8658B /* InfoPlist.strings */; };
 		42FBD1EB19FB3C3200C8658B /* GitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FBD1EA19FB3C3200C8658B /* GitDemoTests.m */; };
+		42FBD1F619FB3DAB00C8658B /* CAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FBD1F519FB3DAB00C8658B /* CAViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		42FBD1E619FB3C3200C8658B /* GitDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GitDemoTests-Info.plist"; sourceTree = "<group>"; };
 		42FBD1E819FB3C3200C8658B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		42FBD1EA19FB3C3200C8658B /* GitDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitDemoTests.m; sourceTree = "<group>"; };
+		42FBD1F419FB3DAB00C8658B /* CAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAViewController.h; sourceTree = "<group>"; };
+		42FBD1F519FB3DAB00C8658B /* CAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				42FBD1D519FB3C3200C8658B /* ViewController.m */,
 				42FBD1D719FB3C3200C8658B /* Images.xcassets */,
 				42FBD1C619FB3C3200C8658B /* Supporting Files */,
+				42FBD1F419FB3DAB00C8658B /* CAViewController.h */,
+				42FBD1F519FB3DAB00C8658B /* CAViewController.m */,
 			);
 			path = GitDemo;
 			sourceTree = "<group>";
@@ -249,6 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42FBD1F619FB3DAB00C8658B /* CAViewController.m in Sources */,
 				42FBD1D619FB3C3200C8658B /* ViewController.m in Sources */,
 				42FBD1D019FB3C3200C8658B /* AppDelegate.m in Sources */,
 				42FBD1CC19FB3C3200C8658B /* main.m in Sources */,
