@@ -26,7 +26,7 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
-    
+    int ccc  = 10;
     
     int  a = 5;
     int b = 10;
